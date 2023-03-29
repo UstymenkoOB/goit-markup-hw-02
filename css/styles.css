@@ -1,7 +1,8 @@
 body {
     background-color: #fff;
-    font-family: "Roboto", "Arial", sans-serif;
-    color: #000;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+    background-color: var(--light-color)
 }
 :root {
     --brand-color: #2E2F42;
@@ -10,7 +11,36 @@ body {
     --studio-color: #F4F4FD;
     --border-color: #E7E9FC;
     --button-active: #404BBF;
-    --light-color: #fff;
+    --light-color: #ffffff;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color);
+}
+.studio {
+    color: var(--brand-color)
+}
+.link {
+    text-decoration: none;
+}
+.link:hover,
+.link:focus {
+    color: #404bbf;
+} 
+.list {
+    list-style: none;
+}
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
 }
 .button {
     cursor: pointer;
