@@ -42,6 +42,16 @@ body {
     letter-spacing: 0.02em;
     color: var(--brand-color);
 }
+.address {
+    font-style: normal;
+}
+.adr-font {
+    font-size: 16px;
+
+}
 .button {
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
 }
