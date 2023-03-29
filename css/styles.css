@@ -1,0 +1,17 @@
+body {
+    background-color: #fff;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #000;
+}
+:root {
+    --brand-color: #2E2F42;
+    --text-color: #434455;
+    --iris-color: #4D5AE5;
+    --studio-color: #F4F4FD;
+    --border-color: #E7E9FC;
+    --button-active: #404BBF;
+    --light-color: #fff;
+}
+.button {
+    cursor: pointer;
+}
