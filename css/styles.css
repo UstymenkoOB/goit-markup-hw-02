@@ -51,7 +51,58 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-
+.head-sect {
+    background-color: var(--brand-color)
+}
+.head-h {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.head-but {
+    background-color: var(--iris-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.head-but:hover,
+.head-but:focus {
+    background-color: var(--button-active)
+}
 .button {
     cursor: pointer;
+}
+.section-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+}
+.section-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.section-h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--brand-color);
+}
+.sect-back {
+    background-color: var(--studio-color);
+}
+.li-back {
+    background-color: #ffffff;
+}
+.studio1 {
+    color: #F4F4FD;
 }
