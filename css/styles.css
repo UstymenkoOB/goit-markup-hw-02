@@ -89,7 +89,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-.section-h2 {
+.section-hh {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -103,6 +103,6 @@ body {
 .li-back {
     background-color: #ffffff;
 }
-.studio1 {
+.studio-light {
     color: #F4F4FD;
 }
